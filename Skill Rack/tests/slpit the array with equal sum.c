@@ -1,4 +1,4 @@
-
+ 
 void fillCombo(int arr[],int n,int combo[],int comboSize,int filled, int fillIndex,int sumInput,int secondhalf[]){
 
     combo[filled]=arr[fillIndex];

@@ -7,14 +7,9 @@ void fillCombo(int arr[],int n,int combo[],int comboSize,int filled, int fillInd
         int sum=0;
         int index=0;
         for(index=0;index<=comboSize-1;index++){
-          //  printf("%d ",combo[index]);
            sum=sum+combo[index];
-           // printf("%d ",sum);
         }
-
-     //  printf("%d \n",sum);
-            //   printf("\n");
-      if(sum==sumInput){
+       if(sum==sumInput){
             printf("\n");
             for(index=0;index<=comboSize-1;index++)
                printf("%d ",combo[index]);
